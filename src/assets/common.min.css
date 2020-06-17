@@ -1,0 +1,188 @@
+.p-font10 {
+  font-size: .42667rem
+}
+
+.p-font12 {
+  font-size: .512rem
+}
+
+.p-font14 {
+  font-size: .59733rem
+}
+
+.p-font16 {
+  font-size: .68267rem
+}
+
+.p-font18 {
+  font-size: .768rem
+}
+
+.p-font20 {
+  font-size: .85333rem
+}
+
+.flex {
+  display: flex
+}
+
+.flexc {
+  display: flex;
+  flex-direction: column
+}
+
+.flexa {
+  align-items: center
+}
+
+.flexj {
+  justify-content: center
+}
+
+.flexsb {
+  display: flex;
+  justify-content: space-between
+}
+
+.flexar {
+  display: flex;
+  justify-content: space-around
+}
+
+.flex3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center
+}
+
+.flex-nowrap {
+  flex-wrap: nowrap
+}
+
+.p-666 {
+  color: #666
+}
+
+.mr-lf {
+  margin-left: .72533rem
+}
+
+.mr-lf28 {
+  margin-left: .59733rem
+}
+
+.mr-top10 {
+  margin-top: .21333rem
+}
+
+.mr-top20 {
+  margin-top: .42667rem
+}
+
+.mr-top30 {
+  margin-top: .64rem
+}
+
+.p-colorw {
+  color: #fff
+}
+
+.p-colorrose {
+  color: #B30036
+}
+
+.p-color999 {
+  color: #999
+}
+
+.p-colorg {
+  color: #009944
+}
+
+.p-fw {
+  font-weight: bold
+}
+
+.btn-gw {
+  background: linear-gradient(90deg, #00997A, #094)
+}
+
+.txtEllipse {
+  width: 100%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap
+}
+
+.avoidShaking {
+  overflow: hidden
+}
+
+.txtEllipse2 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  word-break: break-all;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2
+}
+
+.sub-btn {
+  width: 11.52rem;
+  height: 2.09067rem;
+  background: linear-gradient(90deg, #00997a, #094);
+  border-radius: 1.04533rem;
+  color: #fff;
+  font-size: .768rem;
+  line-height: 2.09067rem;
+  text-align: center;
+  vertical-align: middle
+}
+
+.sub-btn2 {
+  width: 11.52rem;
+  height: 2.09067rem;
+  background: #F5F5F5;
+  border-radius: 1.04533rem;
+  color: #999999;
+  font-size: .768rem;
+  line-height: 2.09067rem;
+  text-align: center;
+  vertical-align: middle
+}
+
+.pink-btn {
+  width: 6.82667rem;
+  height: 1.536rem;
+  line-height: 1.536rem;
+  border-radius: .68267rem;
+  font-size: .68267rem;
+  color: #fff;
+  background: linear-gradient(90deg, #de0044, #b30036);
+  text-align: center
+}
+
+.bottomTips {
+  display: flex;
+  justify-content: center;
+  color: #999;
+  font-size: .46933rem;
+  margin-bottom: .64rem
+}
+
+.onlogin {
+  width: 11.52rem;
+  height: 2.09067rem;
+  background: linear-gradient(90deg, #00997a, #094);
+  border-radius: 1.04533rem;
+  color: #fff;
+  font-size: .768rem;
+  line-height: 2.09067rem;
+  text-align: center;
+  vertical-align: middle
+}
+
+.van-nav-bar .van-icon {
+  color: #009944 !important
+}

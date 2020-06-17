@@ -1,0 +1,189 @@
+@function rem($len) {
+  @return $len * 16/750+rem;
+}
+
+.p-font10 {
+  font-size: rem(10);
+}
+
+.p-font12 {
+  font-size: rem(12);
+}
+
+.p-font14 {
+  font-size: rem(14);
+}
+
+.p-font16 {
+  font-size: rem(16);
+}
+
+.p-font18 {
+  font-size: rem(18);
+}
+
+.p-font20 {
+  font-size: rem(20);
+}
+
+.flex {
+  display: flex;
+}
+
+.flexc {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexa {
+  align-items: center;
+}
+
+.flexj {
+  justify-content: center;
+}
+
+.flexsb {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flexar {
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-nowrap {
+  flex-wrap: nowrap;
+}
+.p-666 {
+  color: #666;
+}
+.mr-lf {
+  margin-left: rem(34);
+}
+
+.mr-lf28 {
+  margin-left: rem(28);
+}
+
+.mr-top10 {
+  margin-top: rem(10);
+}
+
+.mr-top20 {
+  margin-top: rem(20);
+}
+
+.mr-top30 {
+  margin-top: rem(30);
+}
+.p-colorw {
+  color: #fff;
+}
+
+.p-colorrose {
+  color: #B30036;
+}
+
+.p-color999 {
+  color: #999;
+}
+
+.p-colorg {
+  color: #009944;
+}
+
+.p-fw {
+  font-weight: bold;
+}
+
+.btn-gw {
+  background: linear-gradient(90deg, #00997A, #009944);
+}
+
+.txtEllipse {
+  width: 100%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.avoidShaking {
+  overflow: hidden;
+}
+
+.txtEllipse2 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  word-break: break-all;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.sub-btn {
+  width: rem(540);
+  height: rem(98);
+  background: linear-gradient(90deg, rgba(0, 153, 122, 1), rgba(0, 153, 68, 1));
+  border-radius: rem(49);
+  color: #fff;
+  font-size: rem(36);
+  line-height: rem(98);
+  text-align: center;
+  vertical-align: middle;
+}
+
+.sub-btn2 {
+  width: rem(540);
+  height: rem(98);
+  background: #F5F5F5;
+  border-radius: rem(49);
+  color: #999999;
+  font-size: rem(36);
+  line-height: rem(98);
+  text-align: center;
+  vertical-align: middle;
+}
+
+.pink-btn {
+  width: rem(320);
+  height: rem(72);
+  line-height: rem(72);
+  border-radius: rem(32);
+  font-size: rem(32);
+  color: #fff;
+  background: linear-gradient(90deg, #de0044, #b30036);
+  text-align: center;
+}
+
+.bottomTips {
+  display: flex;
+  justify-content: center;
+  color: #999;
+  font-size: rem(22);
+  margin-bottom: rem(30);
+}
+
+.onlogin {
+  width: rem(540);
+  height: rem(98);
+  background: linear-gradient(90deg, rgba(0, 153, 122, 1), rgba(0, 153, 68, 1));
+  border-radius: rem(49);
+  color: #fff;
+  font-size: rem(36);
+  line-height: rem(98);
+  text-align: center;
+  vertical-align: middle;
+}
+
+.van-nav-bar .van-icon {
+  color: #009944 !important;
+}
